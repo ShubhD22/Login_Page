@@ -1,0 +1,74 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #756AB6;
+}
+
+.form{
+    width: 80%;
+    max-width: 350px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 50px 60px 70px;
+    border-radius: 3px;
+}
+
+.form h1{
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.input-field{
+   margin-top: 10px;
+   background: #eaeaea;
+   display: flex;
+   align-items: center;
+   border-radius: 20px;
+   max-height: 65px;
+   transition: max-height 0.5s;
+   overflow: hidden;
+}
+
+input{
+    border: 0;
+    border-radius: 20px;
+    width: 100%;
+    background: #eaeaea;
+    padding: 18px 15px;
+    
+}
+
+.form .input-field i{
+    margin-left: 15px;
+}
+
+.button-field{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;   
+}
+
+.button-field button{
+    background: #eaeaea;
+    border: 0;
+    flex-basis: 48%;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.button-field button:hover{
+    background-color:  #756AB6;
+    color: #eaeaea;
+}
+
